@@ -1,0 +1,28 @@
+header {
+    padding-top: 30px;
+    background-color: var(--top-bg-color);
+}
+header nav {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    background-color: #343333;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    transition: background-color .5s;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+header nav a:hover {
+    background-color: var(--details-color);
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
