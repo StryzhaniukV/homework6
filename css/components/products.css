@@ -1,11 +1,12 @@
+.products {
+    padding-top: 100px;
+}
 .products-wrapper {
     max-width: var(--main-width);
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 100px;
-    border-top: 2px solid #ececec;
 }
 .products-wrapper .line {
     height: 2px;
@@ -14,6 +15,7 @@
     background-color: var(--details-color);
 }
 .products-wrapper .text h2 {
+    margin-top: 0px;
     text-align: center;
     font-family: sans-serif;
     font-size: 40px;
